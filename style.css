@@ -1,7 +1,16 @@
+:root {
+  --main-color: #2470a0;
+  --secondary-color: #a696c8;
+  --accent-color: #060608;
+  --background-color: #fad3cf;
+  --heading-font-family: "Josefin Slab", serif;
+  --default-font-family: "Encode Sans Semi Condensed", sans-serif;
+}
+
 h1 {
-  font-family: "Josefin Slab", serif;
+  font-family: var(--heading-font-family);
   font-weight: 500;
 }
 p {
-  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-family: var(--default-font-family);
 }
