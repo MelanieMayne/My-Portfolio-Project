@@ -25,6 +25,7 @@ p {
   text-align: center;
   line-height: 2;
   padding: 100px 20px;
+  border-bottom: medium solid var(--secondary-color);
 }
 .hero h1 {
   color: var(--main-color);
@@ -33,4 +34,16 @@ p {
 .hero p {
   color: var(--accent-color);
   font-size: 25px;
+}
+.homepage-buttons {
+  color: var(--accent-color);
+  font-family: var(--default-font-family);
+  font-size: 15px;
+  border: solid var(--secondary-color);
+  border-radius: 4px;
+}
+.card-title {
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: 500;
 }
