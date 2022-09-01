@@ -24,7 +24,7 @@ p {
 .hero {
   text-align: center;
   line-height: 2;
-  padding: 100px 20px;
+  padding: 160px 20px;
   border-bottom: medium solid var(--secondary-color);
 }
 .hero h1 {
@@ -42,8 +42,17 @@ p {
   border: solid var(--secondary-color);
   border-radius: 4px;
 }
+.homepage-card {
+  border: solid var(--main-color);
+  border-radius: 4px;
+}
 .card-title {
   color: var(--main-color);
   font-size: 30px;
   font-weight: 500;
+}
+.homepage-buttons:hover {
+  border: solid var(--main-color);
+  border-radius: 4px;
+  cursor: pointer;
 }
