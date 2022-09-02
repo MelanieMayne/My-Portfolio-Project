@@ -73,3 +73,23 @@ p {
     font-size: 12px;
   }
 }
+.about-me-heading {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 85px;
+  margin: 80px;
+}
+.about-main-section {
+  margin: 20px;
+}
+.about-main-section h2 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.about-main-section p {
+  text-indent: 4%;
+  line-height: 2;
+  font-size: 18px;
+}
