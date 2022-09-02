@@ -46,6 +46,9 @@ p {
   border: solid var(--main-color);
   border-radius: 4px;
 }
+.homepage-card img {
+  height: 357.74px;
+}
 .card-title {
   color: var(--main-color);
   font-size: 30px;
@@ -85,6 +88,9 @@ p {
   }
   .homepage-card {
     max-width: 200px;
+  }
+  .homepage-card img {
+    height: 150px;
   }
   .card-title {
     font-size: 20px;
