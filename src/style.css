@@ -56,23 +56,6 @@ p {
   border-radius: 4px;
   cursor: pointer;
 }
-@media (max-width: 576px) {
-  .hero h1 {
-    font-size: 40px;
-  }
-  .hero p {
-    font-size: 18px;
-  }
-  .homepage-card {
-    max-width: 200px;
-  }
-  .card-title {
-    font-size: 20px;
-  }
-  .homepage-buttons {
-    font-size: 12px;
-  }
-}
 .about-me-heading {
   text-align: center;
   color: var(--main-color);
@@ -93,3 +76,30 @@ p {
   line-height: 2;
   font-size: 18px;
 }
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+  .homepage-card {
+    max-width: 200px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .homepage-buttons {
+    font-size: 12px;
+  }
+  .about-me-heading {
+    margin: 60px;
+    font-size: 40px;
+  }
+  .about-main-section h2 {
+    margin-top: 30px;
+    font-size: 22px;
+  }
+  .about-main-section p {
+    font-size: 15px;
+  }
