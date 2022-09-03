@@ -100,6 +100,31 @@ p {
 .project-sections {
   margin-bottom: 40px;
 }
+.main-contact-section {
+  margin: 20px;
+}
+.contact-content {
+  text-align: center;
+  margin-top: 150px;
+}
+.contact-content i {
+  font-size: 50px;
+}
+.linkedin-content {
+  margin: 10px 10px 100px 10px;
+}
+.linkedin-content a {
+  text-decoration: none;
+  font-family: var(--heading-font-family);
+  color: var(--secondary-color);
+  font-size: 25px;
+  line-height: 2;
+}
+.email-content h6 {
+  color: var(--secondary-color);
+  font-size: 25px;
+  line-height: 2;
+}
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 40px;
