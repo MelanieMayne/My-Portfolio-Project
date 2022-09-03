@@ -103,6 +103,10 @@ p {
 .main-contact-section {
   margin: 20px;
 }
+.main-contact-section img {
+  display: block;
+  margin: auto 0;
+}
 .contact-content {
   text-align: center;
   margin-top: 150px;
@@ -167,5 +171,14 @@ p {
   }
   .project-descriptions p {
     font-size: 18px;
+  }
+  .linkedin-content a {
+    font-size: 20px;
+  }
+  .email-content h6 {
+    font-size: 20px;
+  }
+  .contact-content i {
+    font-size: 40px;
   }
 }
