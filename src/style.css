@@ -130,6 +130,9 @@ li {
   font-size: 25px;
   line-height: 2;
 }
+nav a {
+  text-decoration: none;
+}
 nav h4 {
   color: var(--main-color);
   font-size: 25px;
