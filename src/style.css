@@ -159,6 +159,14 @@ nav li a:hover,
 nav li a.active {
   color: var(--secondary-color);
 }
+footer a {
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+footer a:hover {
+  color: var(--secondary-color);
+}
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 40px;
