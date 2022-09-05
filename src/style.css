@@ -129,7 +129,9 @@ li {
   font-size: 25px;
   line-height: 2;
 }
-.email-content h6 {
+.email-content a {
+  text-decoration: none;
+  font-family: var(--heading-font-family);
   color: var(--secondary-color);
   font-size: 25px;
   line-height: 2;
