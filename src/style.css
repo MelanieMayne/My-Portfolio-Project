@@ -115,6 +115,10 @@ li {
 .contact-content i {
   font-size: 50px;
 }
+.linkedin-content i,
+.contact-content i {
+  color: var(--accent-color);
+}
 .linkedin-content {
   margin: 10px 10px 100px 10px;
 }
