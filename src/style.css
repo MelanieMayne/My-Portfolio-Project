@@ -18,7 +18,8 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: medium;
 }
-p {
+p,
+li {
   font-family: var(--default-font-family);
 }
 .hero {
@@ -129,6 +130,28 @@ p {
   font-size: 25px;
   line-height: 2;
 }
+nav h4 {
+  color: var(--main-color);
+  font-size: 25px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+  font-size: 18px;
+}
+nav li a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+nav li a:hover,
+nav li a.active {
+  color: var(--secondary-color);
+}
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 40px;
@@ -180,5 +203,8 @@ p {
   }
   .contact-content i {
     font-size: 40px;
+  }
+  nav li {
+    font-size: 15px;
   }
 }
