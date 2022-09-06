@@ -66,6 +66,9 @@ li {
   font-size: 85px;
   margin: 80px;
 }
+.white-border {
+  padding: 6px;
+}
 .about-main-section {
   margin: 20px;
 }
