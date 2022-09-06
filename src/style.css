@@ -36,7 +36,7 @@ li {
   color: var(--accent-color);
   font-size: 25px;
 }
-.homepage-buttons {
+.default-buttons {
   color: var(--accent-color);
   font-family: var(--default-font-family);
   font-size: 15px;
@@ -97,6 +97,11 @@ li {
   text-indent: 4%;
   line-height: 2;
   font-size: 20px;
+}
+.project-descriptions a {
+  display: block;
+  margin: auto;
+  max-width: fit-content;
 }
 .project-sections {
   margin-bottom: 40px;
