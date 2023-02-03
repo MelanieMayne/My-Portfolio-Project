@@ -43,6 +43,11 @@ li {
   border: solid var(--secondary-color);
   border-radius: 4px;
 }
+.default-buttons:hover {
+  border: solid var(--main-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
 .homepage-card {
   border: solid var(--main-color);
   border-radius: 4px;
