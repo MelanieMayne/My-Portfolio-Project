@@ -2,7 +2,7 @@
   --main-color: #2470a0;
   --secondary-color: #a696c8;
   --accent-color: #060608;
-  --background-color: rgba(250, 211, 207, 0.3);
+  --background-color: #fdf1f0;
   --heading-font-family: "Josefin Slab", serif;
   --default-font-family: "Encode Sans Semi Condensed", sans-serif;
 }
@@ -23,10 +23,26 @@ li {
   font-family: var(--default-font-family);
 }
 .hero {
+  background: repeating-radial-gradient(circle, transparent, transparent 11.2px, #2470a0 11.2px, #2470a0 14.4px), repeating-radial-gradient(circle, transparent, transparent 11.2px, #a696c8 11.2px, #a696c8 14.4px), #fdf1f0;
+  background-size: 64px 64px;
+  background-position: 0 0, 32px 32px, 64px 32px;
+  background-color: var(--background-color);
+  border-bottom: medium solid var(--secondary-color);
+  height: 100vh;
+  margin-bottom: 40px;
+}
+.hero .text-container {
   text-align: center;
   line-height: 2;
-  padding: 160px 20px;
-  border-bottom: medium solid var(--secondary-color);
+  background-color: var(--background-color);
+  border: 3px solid var(--secondary-color);
+  border-radius: 50%;
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: 40px;
+  position: relative;
+  top: 30%;
 }
 .hero h1 {
   color: var(--main-color);
@@ -48,11 +64,20 @@ li {
   border-radius: 4px;
   cursor: pointer;
 }
+.row {
+  margin: 0;
+}
+.card {
+  display: block !important;
+  margin: 0 auto !important;
+  margin-bottom: 15px !important;
+}
 .homepage-card {
   border: solid var(--main-color);
   border-radius: 4px;
 }
 .homepage-card img {
+  width: 95%;
   height: 500px;
 }
 .card-title {
@@ -156,6 +181,13 @@ li {
   font-size: 25px;
   line-height: 2;
 }
+.nav-container {
+  background-color: var(--background-color);
+  position: sticky;
+  top: 0;
+  width: 97%;
+  z-index: 1;
+}
 nav a {
   text-decoration: none;
 }
@@ -195,6 +227,14 @@ footer a:hover {
   text-align: center;
   font-size: 15px;
   font-family: var(--default-font-family);
+}
+.design-footer {
+  background: repeating-radial-gradient(circle, transparent, transparent 11.2px, #2470a0 11.2px, #2470a0 14.4px), repeating-radial-gradient(circle, transparent, transparent 11.2px, #a696c8 11.2px, #a696c8 14.4px), #fdf1f0;
+  background-size: 64px 64px;
+  background-position: 0 0, 32px 32px, 64px 32px;
+  background-color: var(--background-color);
+  width: 100%;
+  height: 80px;
 }
 @media (max-width: 576px) {
   .hero h1 {
