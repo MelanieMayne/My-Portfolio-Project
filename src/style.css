@@ -113,6 +113,11 @@ li {
   text-indent: 4%;
   line-height: 2;
   font-size: 18px;
+  margin-right: 70px;
+}
+.about-main-section img {
+  display: block;
+  margin: auto;
 }
 .projects-main-section {
   margin: 20px;
@@ -228,7 +233,7 @@ footer a:hover {
   font-size: 15px;
   font-family: var(--default-font-family);
 }
-.design-footer {
+.design-banner {
   background: repeating-radial-gradient(circle, transparent, transparent 11.2px, #2470a0 11.2px, #2470a0 14.4px), repeating-radial-gradient(circle, transparent, transparent 11.2px, #a696c8 11.2px, #a696c8 14.4px), #fdf1f0;
   background-size: 64px 64px;
   background-position: 0 0, 32px 32px, 64px 32px;
@@ -265,6 +270,7 @@ footer a:hover {
   }
   .about-main-section p {
     font-size: 15px;
+    margin-right: 0 !important;
   }
   .projects-page-img {
     height: 280px;
