@@ -125,6 +125,8 @@ li {
 .projects-page-img {
   height: 580px;
   width: 600px;
+  display: block;
+  margin: auto;
 }
 .project-descriptions h2 {
   text-align: center;
@@ -149,7 +151,7 @@ li {
   max-width: fit-content;
 }
 .project-sections {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 .main-contact-section {
   margin: 20px;
