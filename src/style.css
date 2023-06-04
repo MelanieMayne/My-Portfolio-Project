@@ -120,13 +120,19 @@ li {
   margin: auto;
 }
 .projects-main-section {
-  margin: 20px;
+  margin: 80px;
+}
+.project-sections {
+  margin-bottom: 40px;
 }
 .projects-page-img {
   height: 580px;
   width: 600px;
   display: block;
   margin: auto;
+}
+.project-descriptions {
+  max-width: 50%;
 }
 .project-descriptions h2 {
   text-align: center;
@@ -149,9 +155,6 @@ li {
   display: block;
   margin: auto;
   max-width: fit-content;
-}
-.project-sections {
-  margin-bottom: 80px;
 }
 .main-contact-section {
   margin: 20px;
@@ -243,7 +246,7 @@ footer a:hover {
   width: 100%;
   height: 80px;
 }
-@media (max-width: 576px) {
+@media (max-width: 700px) {
   .hero h1 {
     font-size: 40px;
   }
@@ -283,6 +286,9 @@ footer a:hover {
   .project-descriptions h2 {
     margin-top: 30px;
     font-size: 25px;
+  }
+  .project-descriptions {
+    max-width: 100%;
   }
   .project-descriptions p {
     font-size: 18px;
